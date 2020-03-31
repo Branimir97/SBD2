@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fakeimg{
+    height: 200px;
+}
+
+.fakeimg img{
+    height: 200px;
+    width: 100%;
+}
+
+.onematch:hover{
+    cursor: pointer;
+}
+
+.onenews:hover{
+    cursor: pointer;
+}
+
+.onenews h6:first-child{
+    height: 200px;
+    overflow-y: auto;
+}
+
+.title{
+    overflow-x: auto;
+}
+
+@media(max-width: 425px){
+    .jumbotron img{
+        width : 70px; 
+        height: 70px;
+        
+    }
+    .jumbotron h1{
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .jumbotron p{
+        font-size: 13px;
+    }
+
+    .onenews h6:first-child{
+        height: 75px;
+    }
+}

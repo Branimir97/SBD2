@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.onenews{
+    height: 300px;
+    position: relative;
+}
+
+.onenews:hover{
+    cursor: pointer;
+}
+
+.fakeimg{
+    height: 200px;
+}
+
+.fakeimg img{
+    height: 100%;
+    width: 100%;
+}
+
+.topright{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: -15px;
+    top: -20px;
+}
+
+.topright img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+@media(max-width: 425px){
+    .jumbotron img{
+        width : 70px; 
+        height: 70px;
+        
+    }
+    .jumbotron h1{
+        font-size: 27px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .jumbotron p{
+        text-align: center;
+        font-size: 13px;
+    }
+}
